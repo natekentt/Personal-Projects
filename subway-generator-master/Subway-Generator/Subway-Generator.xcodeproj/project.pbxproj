@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152B0B7125EEDA3700A51D66 /* Subway_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0B7025EEDA3700A51D66 /* Subway_GeneratorApp.swift */; };
+		152B0B7325EEDA3700A51D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0B7225EEDA3700A51D66 /* ContentView.swift */; };
+		152B0B7525EEDA3A00A51D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152B0B7425EEDA3A00A51D66 /* Assets.xcassets */; };
+		152B0B7825EEDA3A00A51D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152B0B7725EEDA3A00A51D66 /* Preview Assets.xcassets */; };
+		152B0B8325EEDA3B00A51D66 /* Subway_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0B8225EEDA3B00A51D66 /* Subway_GeneratorTests.swift */; };
+		152B0B8E25EEDA3B00A51D66 /* Subway_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0B8D25EEDA3B00A51D66 /* Subway_GeneratorUITests.swift */; };
+		152B0B9F25EEDB3200A51D66 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0B9E25EEDB3200A51D66 /* model.swift */; };
+		3894CEEE25F70D670072A88E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894CEED25F70D670072A88E /* File.swift */; };
+		38E2873225F830A0007EAA72 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E2873125F830A0007EAA72 /* Generate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152B0B7F25EEDA3B00A51D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152B0B6525EEDA3700A51D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152B0B6C25EEDA3700A51D66;
+			remoteInfo = "Subway-Generator";
+		};
+		152B0B8A25EEDA3B00A51D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152B0B6525EEDA3700A51D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152B0B6C25EEDA3700A51D66;
+			remoteInfo = "Subway-Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152B0B6D25EEDA3700A51D66 /* Subway-Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subway-Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B0B7025EEDA3700A51D66 /* Subway_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway_GeneratorApp.swift; sourceTree = "<group>"; };
+		152B0B7225EEDA3700A51D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		152B0B7425EEDA3A00A51D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152B0B7725EEDA3A00A51D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		152B0B7925EEDA3A00A51D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152B0B7E25EEDA3B00A51D66 /* Subway-GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subway-GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B0B8225EEDA3B00A51D66 /* Subway_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway_GeneratorTests.swift; sourceTree = "<group>"; };
+		152B0B8425EEDA3B00A51D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152B0B8925EEDA3B00A51D66 /* Subway-GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subway-GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B0B8D25EEDA3B00A51D66 /* Subway_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway_GeneratorUITests.swift; sourceTree = "<group>"; };
+		152B0B8F25EEDA3B00A51D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152B0B9E25EEDB3200A51D66 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		3894CEED25F70D670072A88E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		38E2873125F830A0007EAA72 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152B0B6A25EEDA3700A51D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B7B25EEDA3B00A51D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B8625EEDA3B00A51D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152B0B6425EEDA3700A51D66 = {
+			isa = PBXGroup;
+			children = (
+				152B0B6F25EEDA3700A51D66 /* Subway-Generator */,
+				152B0B8125EEDA3B00A51D66 /* Subway-GeneratorTests */,
+				152B0B8C25EEDA3B00A51D66 /* Subway-GeneratorUITests */,
+				152B0B6E25EEDA3700A51D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152B0B6E25EEDA3700A51D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152B0B6D25EEDA3700A51D66 /* Subway-Generator.app */,
+				152B0B7E25EEDA3B00A51D66 /* Subway-GeneratorTests.xctest */,
+				152B0B8925EEDA3B00A51D66 /* Subway-GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152B0B6F25EEDA3700A51D66 /* Subway-Generator */ = {
+			isa = PBXGroup;
+			children = (
+				152B0B7025EEDA3700A51D66 /* Subway_GeneratorApp.swift */,
+				152B0B7225EEDA3700A51D66 /* ContentView.swift */,
+				3894CEED25F70D670072A88E /* File.swift */,
+				38E2873125F830A0007EAA72 /* Generate.swift */,
+				152B0B9E25EEDB3200A51D66 /* model.swift */,
+				152B0B7425EEDA3A00A51D66 /* Assets.xcassets */,
+				152B0B7925EEDA3A00A51D66 /* Info.plist */,
+				152B0B7625EEDA3A00A51D66 /* Preview Content */,
+			);
+			path = "Subway-Generator";
+			sourceTree = "<group>";
+		};
+		152B0B7625EEDA3A00A51D66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				152B0B7725EEDA3A00A51D66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		152B0B8125EEDA3B00A51D66 /* Subway-GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				152B0B8225EEDA3B00A51D66 /* Subway_GeneratorTests.swift */,
+				152B0B8425EEDA3B00A51D66 /* Info.plist */,
+			);
+			path = "Subway-GeneratorTests";
+			sourceTree = "<group>";
+		};
+		152B0B8C25EEDA3B00A51D66 /* Subway-GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152B0B8D25EEDA3B00A51D66 /* Subway_GeneratorUITests.swift */,
+				152B0B8F25EEDA3B00A51D66 /* Info.plist */,
+			);
+			path = "Subway-GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152B0B6C25EEDA3700A51D66 /* Subway-Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B0B9225EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-Generator" */;
+			buildPhases = (
+				152B0B6925EEDA3700A51D66 /* Sources */,
+				152B0B6A25EEDA3700A51D66 /* Frameworks */,
+				152B0B6B25EEDA3700A51D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subway-Generator";
+			productName = "Subway-Generator";
+			productReference = 152B0B6D25EEDA3700A51D66 /* Subway-Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152B0B7D25EEDA3B00A51D66 /* Subway-GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B0B9525EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-GeneratorTests" */;
+			buildPhases = (
+				152B0B7A25EEDA3B00A51D66 /* Sources */,
+				152B0B7B25EEDA3B00A51D66 /* Frameworks */,
+				152B0B7C25EEDA3B00A51D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152B0B8025EEDA3B00A51D66 /* PBXTargetDependency */,
+			);
+			name = "Subway-GeneratorTests";
+			productName = "Subway-GeneratorTests";
+			productReference = 152B0B7E25EEDA3B00A51D66 /* Subway-GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152B0B8825EEDA3B00A51D66 /* Subway-GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B0B9825EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-GeneratorUITests" */;
+			buildPhases = (
+				152B0B8525EEDA3B00A51D66 /* Sources */,
+				152B0B8625EEDA3B00A51D66 /* Frameworks */,
+				152B0B8725EEDA3B00A51D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152B0B8B25EEDA3B00A51D66 /* PBXTargetDependency */,
+			);
+			name = "Subway-GeneratorUITests";
+			productName = "Subway-GeneratorUITests";
+			productReference = 152B0B8925EEDA3B00A51D66 /* Subway-GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152B0B6525EEDA3700A51D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					152B0B6C25EEDA3700A51D66 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					152B0B7D25EEDA3B00A51D66 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 152B0B6C25EEDA3700A51D66;
+					};
+					152B0B8825EEDA3B00A51D66 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 152B0B6C25EEDA3700A51D66;
+					};
+				};
+			};
+			buildConfigurationList = 152B0B6825EEDA3700A51D66 /* Build configuration list for PBXProject "Subway-Generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152B0B6425EEDA3700A51D66;
+			productRefGroup = 152B0B6E25EEDA3700A51D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152B0B6C25EEDA3700A51D66 /* Subway-Generator */,
+				152B0B7D25EEDA3B00A51D66 /* Subway-GeneratorTests */,
+				152B0B8825EEDA3B00A51D66 /* Subway-GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152B0B6B25EEDA3700A51D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B0B7825EEDA3A00A51D66 /* Preview Assets.xcassets in Resources */,
+				152B0B7525EEDA3A00A51D66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B7C25EEDA3B00A51D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B8725EEDA3B00A51D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152B0B6925EEDA3700A51D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B0B7325EEDA3700A51D66 /* ContentView.swift in Sources */,
+				3894CEEE25F70D670072A88E /* File.swift in Sources */,
+				38E2873225F830A0007EAA72 /* Generate.swift in Sources */,
+				152B0B9F25EEDB3200A51D66 /* model.swift in Sources */,
+				152B0B7125EEDA3700A51D66 /* Subway_GeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B7A25EEDA3B00A51D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B0B8325EEDA3B00A51D66 /* Subway_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B0B8525EEDA3B00A51D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B0B8E25EEDA3B00A51D66 /* Subway_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152B0B8025EEDA3B00A51D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152B0B6C25EEDA3700A51D66 /* Subway-Generator */;
+			targetProxy = 152B0B7F25EEDA3B00A51D66 /* PBXContainerItemProxy */;
+		};
+		152B0B8B25EEDA3B00A51D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152B0B6C25EEDA3700A51D66 /* Subway-Generator */;
+			targetProxy = 152B0B8A25EEDA3B00A51D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152B0B9025EEDA3B00A51D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152B0B9125EEDA3B00A51D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152B0B9325EEDA3B00A51D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Subway-Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Subway-Generator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152B0B9425EEDA3B00A51D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Subway-Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Subway-Generator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152B0B9625EEDA3B00A51D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subway-GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subway-Generator.app/Subway-Generator";
+			};
+			name = Debug;
+		};
+		152B0B9725EEDA3B00A51D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subway-GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subway-Generator.app/Subway-Generator";
+			};
+			name = Release;
+		};
+		152B0B9925EEDA3B00A51D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subway-GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subway-Generator";
+			};
+			name = Debug;
+		};
+		152B0B9A25EEDA3B00A51D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subway-GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nkent.Subway-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subway-Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152B0B6825EEDA3700A51D66 /* Build configuration list for PBXProject "Subway-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B0B9025EEDA3B00A51D66 /* Debug */,
+				152B0B9125EEDA3B00A51D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B0B9225EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B0B9325EEDA3B00A51D66 /* Debug */,
+				152B0B9425EEDA3B00A51D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B0B9525EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B0B9625EEDA3B00A51D66 /* Debug */,
+				152B0B9725EEDA3B00A51D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B0B9825EEDA3B00A51D66 /* Build configuration list for PBXNativeTarget "Subway-GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B0B9925EEDA3B00A51D66 /* Debug */,
+				152B0B9A25EEDA3B00A51D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152B0B6525EEDA3700A51D66 /* Project object */;
+}

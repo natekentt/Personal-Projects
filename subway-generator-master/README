@@ -1,0 +1,42 @@
+This is where your group will put your project, the Next Big Thing
+in apps!
+
+436 Project Proposal
+
+Project Team (17)
+Nathaniel Kent
+Matthew Johnson
+Matthew Frohman
+Hanna Choe
+
+App Description
+Our app is an auxiliary app for the restaurant chain Subway, and allows users to develop a list of dietary restrictions, ingredient preferences, and cost limitations for subs, which are used to randomly generate a sub meeting these parameters, allowing the user to vary their orders.
+
+Minimal Goals
+The goal of the app is to provide an interface for the user to click a button and the app generates a random sandwich order. Users would be able to choose:
+The type of meat they would like (if any)
+Whether it is a hot or cold sandwich
+The type of bread they would like
+
+Stretch Goals
+In addition to the minimal goals, we will allow the user to specify:
+A minimum and maximum number of calories
+Diets like Vegan, Vegetarian, Pescatarian, Lactose Intolerance, Gluten-Free, Paleo, Keto, Mediterranean, Kosher, Halal
+Allergies to common substances
+Fine tune random orders so that they cater towards a users likings
+
+Project Timeline
+Milestone 1
+Back end development
+Start and meet as many minimum goals as possible
+
+Milestone 2
+Start implementing GUI/front end dev
+Start stretch goals
+
+Milestone 3
+Finished as many stretch goals as possible
+Fine tune GUI and all functionality
+
+Final Submission
+Stretch goals completed, project submitted, and a demonstration scheduled.
